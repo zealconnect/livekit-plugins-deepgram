@@ -27,10 +27,10 @@ with open(os.path.join(here, "livekit", "plugins", "deepgram", "version.py"), "r
 setuptools.setup(
     name="livekit-plugins-deepgram",
     version=about["__version__"],
-    description="Agent Framework plugin for services using Deepgram's API.",
+    description="Custom Agent Framework for Deepgram's API from Zeal Connect",
     long_description=(here / "README.md").read_text(encoding="utf-8"),
     long_description_content_type="text/markdown",
-    url="https://github.com/livekit/agents",
+    url="https://github.com/zealconnect/livekit-plugins-openai",
     cmdclass={},
     classifiers=[
         "Intended Audience :: Developers",
